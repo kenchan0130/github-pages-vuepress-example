@@ -1,0 +1,13 @@
+{
+  "name": "github-pages-vuepress-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^0.10.1"
+  },
+  "destDirectory": "docs/",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}
