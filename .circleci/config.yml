@@ -36,7 +36,7 @@ jobs:
       - run:
           name: Deploy development branch to master
           command: |
-            if [ "${CIRCLE_BRANCH}" == "${DEPLOY_BRANCH}" ]; then
+            if [ "${CIRCLE_BRANCH}" = "${DEPLOY_BRANCH}" ]; then
               chmod +x deploy.sh
               ./deploy.sh
             fi
